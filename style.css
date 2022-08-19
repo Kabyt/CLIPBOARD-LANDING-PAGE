@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+img.logo {
+    height: 100px;
+    position: absolute;
+    margin: auto;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 150px;
+}
+
+.content {
+    margin-top: -70px;
+
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+h1, h2, h4 {
+    color:  hsl(210, 10%, 33%);
+    font-weight: 900;
+}
+
+p {
+    color:  hsl(201, 11%, 66%);
+    font-size: 18px;
+
+}
+
+.align-center {
+    text-align: center;
+    
+}
+
+.snippet-section {
+    padding: 75px ;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button-container {
+    padding-top: 40px;
+    padding-bottom: 50px;
+   
+}
+
+.btn-ios, .btn-mac {
+    padding: 15px;
+    border-radius: 24px;
+    border: none;
+    width: 200px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+    font-weight: 550;
+    font-size: 16px;
+}
+
+.btn-ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow:  0 4px 8px 0 hsla(171, 66%, 44%, 0.5) ;
+    margin-right: 8px;
+}
+
+.btn-mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow:  0 6px 10px 0 hsla(233, 100%, 69%, 0.5); 
+    margin-left: 8px;
+}
+
+p {
+    padding: 10px;
+}
+
+.flex-item {
+    display: flex;
+}
+
+.flex {
+    padding: 30px;
+    line-height: 25px;
+    margin-left: 60px;
+    margin-top: 40px;
+    
+}
+
+.flex h4 {
+    line-height: 40px;
+    font-weight: bolder;
+}
+
+.flex p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: -8px;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clipboard-section {
+    margin: 130px;
+    line-height: 30px;
+}
+
+.clipboard-section p {
+    padding: 25px;
+}
+
+.Supercharge-section {
+    margin: 75px;
+}
+
+.blacklist-section {
+    margin: 120px;
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+    justify-content: space-around;
+    
+}
+
+.blacklist-section p {
+    font-size: 15px;
+    padding: 17px;
+    
+}
+
+.blacklist-section h4 {
+    margin-top: 35px;
+}
+
+.logos-section {
+    margin: 130px;
+    justify-content: space-around;
+    height: 35px;
+}
+
+.ios-mac-section {
+    margin: 130px;
+}
+
+.ios-mac-section p {
+    padding: 35px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: whitesmoke ;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    
+}
+
+.footer-image {
+    max-width: 45px;
+    max-height: 40px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    align-items: center;
+    
+}
+
+.footer-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.col {
+    display:flex;
+    flex-direction: column;
+}
